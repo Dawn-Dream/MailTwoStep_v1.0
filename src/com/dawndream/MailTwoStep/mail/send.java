@@ -9,7 +9,7 @@ public class send {
     public static int SendMailInt(String to, String from, String host, String password, String head){
         int codeint1 = Integer.parseInt(new StepCode().code());
         // 收件人电子邮箱
-
+        head = "minecraft服务器";
 
         // 获取系统属性
         Properties properties = System.getProperties();
